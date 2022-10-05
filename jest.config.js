@@ -8,6 +8,15 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   moduleDirectories: ['node_modules', '<rootDir />'],
   testEnvironment: 'jest-environment-jsdom',
+  coverageReporters: ['text', 'html'],
+  coverageThreshold: {
+    global: {
+      branches: 70,
+      functions: 70,
+      lines: 70,
+      statements: -10,
+    },
+  },
 }
 
 module.exports = createJestConfig(customJestConfig)
