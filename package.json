@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --coverage --env=jsdom",
-    "watch": "jest --coverage --watch"
+    "watch": "jest --coverage --watch",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run"
   },
   "dependencies": {
     "next": "12.3.1",
@@ -23,9 +25,11 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "cypress": "^10.9.0",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-testing-library": "^5.7.0",
     "husky": "^8.0.1",
