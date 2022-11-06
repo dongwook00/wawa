@@ -17,6 +17,7 @@ const customJestConfig = {
       statements: -10,
     },
   },
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 }
 
 module.exports = createJestConfig(customJestConfig)
