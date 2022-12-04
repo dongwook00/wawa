@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <nav>
       <Link href={'/about'}>
-        <a>Go to an about page</a>
+        <a>Go to an about page 2</a>
       </Link>
     </nav>
   )

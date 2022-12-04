@@ -6,7 +6,7 @@ describe('Home', () => {
     render(<Home />)
 
     const heading = screen.getByRole('link', {
-      name: 'Go to an about page',
+      name: /Go to an about page 2/i,
     })
 
     expect(heading).toBeInTheDocument()
