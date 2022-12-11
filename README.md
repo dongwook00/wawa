@@ -1,3 +1,3 @@
 ## wawa
 
-Blog using Next.js and Markdown
+A blog using Next.js and Markdown
